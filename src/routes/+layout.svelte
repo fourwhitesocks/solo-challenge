@@ -1,20 +1,16 @@
 <script>
+  import Navbar from '$lib/components/Navbar.svelte';
+  import { onMount } from 'svelte';
+  import { themeChange } from 'theme-change';
   import '../app.css';
+
+  onMount(async () => {
+    themeChange(false);
+  });
 </script>
 
-<!-- data sveltekit prefecth will prerender the fetch when user hovers over nav with mouse -->
-<nav>
-  <a href="/">Home</a>
-  <a href="/posts" data-sveltekit-prefetch>Posts</a>
-</nav>
+<Navbar />
 
-<slot />
-
-<style>
-  nav {
-    display: flex;
-  }
-  nav a {
-    margin-right: 1rem;
-  }
-</style>
+<main class="container mx-auto max-w-xl px-4">
+  <slot />
+</main>

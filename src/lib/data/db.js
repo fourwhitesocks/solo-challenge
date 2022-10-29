@@ -7,3 +7,5 @@ export async function postquery(q) {
 
    return result
 }  
+
+//this like 'exports' the postquery() 
