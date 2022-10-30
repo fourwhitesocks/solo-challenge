@@ -1,35 +1,16 @@
 <script lang="ts">
   import Title from '$lib/components/Title.svelte';
-  export let data;
+  //export let data;
   //this is showing  users destructured so you don't have to go data.users in the each block this from:  https://www.youtube.com/watch?v=EQy-AYhZIlE&ab_channel=Huntabyte 4:29 in!!
-  const { users } = data;
-  console.log(data);
+
+  //console.log(data);
 
   import { formatMe } from '$utils/FormatText';
 </script>
 
-<Title />
-<h1 class="text-3xl font-bold underline">Sandbox</h1>
-<br />
-<h2>
-  Below just pulling in names from a pulic json api: https://jsonplaceholder.typicode.com/users
-</h2>
-<br />
-<p>I'm {data.age} years old...</p>
-<br />
-<br />
-<br />
 {formatMe('Amy')}
-
 <br />
 <br />
+<Title />
+
 <br />
-
-<ul>
-  {#each users as user}
-    <li>{user.name}</li>
-
-    <li>{user.email}</li>
-    <br />
-  {/each}
-</ul>

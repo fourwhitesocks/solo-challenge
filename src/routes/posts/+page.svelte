@@ -27,10 +27,25 @@
 {image}
 {/each} -->
 
-{#each posts.posts as post}
-  <a href="/posts/{post.slug}">
-    <h2>{post.title}</h2>
-  </a>
-  <h3>{post.excerpt}</h3>
-  <img src={post.image.url} alt="im alt text" />
-{/each}
+<div class="multiple">
+  {#each posts.posts as post}
+    <div>
+      <a href="/posts/{post.slug}">
+        <h2>{post.title}</h2>
+      </a>
+      <h3>{post.excerpt}</h3>
+      <img src={post.image.url} alt="im alt text" />
+    </div>
+  {/each}
+</div>
+
+<style>
+  .multiple {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    align-items: center;
+    grid-gap: 3em;
+    padding: 4em;
+  }
+</style>

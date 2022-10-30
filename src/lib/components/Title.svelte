@@ -1,7 +1,7 @@
 <script>
-  export let title = 'Solo Sailing for 5 Days!';
+  export let title = 'My Longest Solo Sail ~ So Far';
 </script>
 
 <div>
-  <h1>{title}</h1>
+  <h1 class="text-3xl font-bold underline">{title}</h1>
 </div>
