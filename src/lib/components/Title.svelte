@@ -1,7 +1,7 @@
 <script>
-  export let title = 'My Longest Solo Sail ~ So Far';
+  export let title = 'My Longest Sail';
 </script>
 
-<div>
-  <h1 class="text-3xl font-bold underline">{title}</h1>
-</div>
+<h1 class="w-7/12 text-4xl font-semibold text-gray-900 dark:text-white md:text-5xl xl:text-6xl">
+  {title}
+</h1>

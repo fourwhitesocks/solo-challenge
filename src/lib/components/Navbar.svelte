@@ -2,7 +2,7 @@
   import ThemeSelect from './theme-select.svelte';
 </script>
 
-<header class="navbar rounded-box mb-2 bg-neutral text-neutral-content shadow-lg">
+<header class="navbar rounded-box bg-neutral text-neutral-content shadow-lg">
   <div class="navbar-start mx-2 px-2">
     <span class="text-lg font-bold">Solo Challenge 2022 </span>
   </div>

@@ -11,6 +11,6 @@
 
 <Navbar />
 
-<main class="container mx-auto max-w-xl px-4">
+<main class="">
   <slot />
 </main>

@@ -27,7 +27,7 @@
 {image}
 {/each} -->
 
-<div class="multiple">
+<div class="lg:grid-cols-2">
   {#each posts.posts as post}
     <div>
       <a href="/posts/{post.slug}">
