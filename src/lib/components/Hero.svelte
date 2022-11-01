@@ -25,7 +25,7 @@
             />
           </p>
           <p class="mt-4">
-            <img src="./sailboat-hr.svg" alt="little sailboat graphic" />
+            <img src="./sailboat-hr-test-op.svg" alt="little sailboat graphic" />
           </p>
         </div>
       </div>
