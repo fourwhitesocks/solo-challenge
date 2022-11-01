@@ -3,7 +3,7 @@
 </script>
 
 <div class="dark:bg-gray-900">
-  <div class="container mx-auto pb-9 md:pb-12 lg:pb-24">
+  <div class="container mx-auto py-9 md:py-12 lg:py-24">
     <div class="items-strech mx-4 flex flex-col justify-center lg:flex-row">
       <div class="flex items-center justify-center lg:w-4/12">
         <div>
@@ -17,7 +17,15 @@
             class="mt-4 text-base leading-normal text-gray-600 dark:text-gray-300 md:w-7/12 lg:mt-5 lg:w-11/12 xl:w-10/12"
           >
             A minimal recap of my 2022 sailing adventure competing in the solo sailors.org Lake Erie
-            Solo Challenge
+            Solo Challenge. Little sv Eloxy just after the start pictured on far left of the fleet. <span
+              class="mp2 nj141"
+              aria-label="Emoji: Dashing Away"
+              title="Dashing Away"
+              alt="💨"
+            />
+          </p>
+          <p class="mt-4">
+            <img src="./sailboat-hr.svg" alt="little sailboat graphic" />
           </p>
         </div>
       </div>
@@ -27,13 +35,13 @@
             src="./start-line-no-kite.jpeg"
             alt="A lounge sofa"
             role="img"
-            class="relative hidden h-full w-full lg:block"
+            class="rounded-box relative hidden h-full w-full lg:block"
           />
           <img
             src="./start-line-no-kite.jpeg"
             alt="A lounge sofa"
             role="img"
-            class="h-full w-full lg:hidden"
+            class="rounded-box h-full w-full lg:hidden"
           />
           <div class="absolute bottom-0 right-0 hidden w-1/2 bg-red-200 lg:block">
             <button
