@@ -61,7 +61,11 @@
         </div>
 
         <h4>{post.excerpt}</h4>
-        <img src={post.image.url} alt="im alt text" />
+        <img class="pb-4" src={post.image.url} alt="im alt text" />
+        <a
+          class="text-2xl underline decoration-wavy decoration-2 hover:underline-offset-4"
+          href="/posts/{post.slug}">Continued</a
+        >
       </article>
     {/each}
   </div>
