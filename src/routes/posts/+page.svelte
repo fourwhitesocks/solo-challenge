@@ -30,7 +30,7 @@
   <div class="post-grid">
     {#each posts.posts as post}
       <article class="day">
-        <div class="flex">
+        <div class="day-header flex">
           <svg xmlns="http://www.w3.org/2000/svg" width="56" height="70" fill="none"
             ><g clip-path="url(#clip0_11_15)"
               ><path
@@ -52,28 +52,62 @@
             ></svg
           >
           <!-- <img src={post.graphic.url} alt="gps locator icon" /> -->
-          <a href="/posts/{post.slug}">
-            <h2>{post.title}</h2>
-          </a>
-          <h3>{post.subtitle}</h3>
+          <div class="titles-frame">
+            <a href="/posts/{post.slug}">
+              <h2>{post.title}</h2>
+            </a>
+            <h3>{post.subtitle}</h3>
+          </div>
         </div>
 
         <h4>{post.excerpt}</h4>
-        <!-- <img src={post.image.url} alt="im alt text" /> -->
+        <img src={post.image.url} alt="im alt text" />
       </article>
     {/each}
   </div>
 </body>
 
 <style>
+  :root {
+    --clr-primary-400: 263 55% 52%;
+    --clr-secondary-400: 217 19% 35%;
+  }
+  /* Box sizing rules */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  /* Remove default margin */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  figure,
+  blockquote,
+  dl,
+  dd {
+    margin: 0;
+  }
   body {
-    display: grid;
+    /*  display: grid;
     place-content: center;
-    min-height: 100vh;
+    min-height: 100vh; */
+    background-color: hsl(210 46% 95%);
+  }
+
+  /* Make images easier to work with */
+  img,
+  picture {
+    max-width: 100%;
+    display: block;
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: bolder;
   }
 
@@ -82,6 +116,19 @@
     font-weight: bold;
   }
 
+  h4 {
+    line-height: 1.7;
+  }
+
+  svg {
+    transform: scale(0.6);
+  }
+
+  .titles-frame {
+  }
+  .day-header {
+    padding-bottom: 1em;
+  }
   .post-grid {
     display: grid;
     gap: 1.5rem;
@@ -94,7 +141,7 @@
       'five';
 
     padding-block: 2rem;
-    width: min(95%, 70rem);
+    width: min(95%, 76rem);
     margin-inline: auto;
   }
   .flex {
@@ -111,7 +158,7 @@
 
   .day:nth-child(1) {
     grid-area: one;
-    background-color: cornflowerblue;
+    background-color: hsl(220, 80%, 20%);
     color: white;
   }
 
@@ -125,24 +172,38 @@
 
   .day:nth-child(2) {
     grid-area: two;
+    background-color: lightgrey;
   }
 
   .day:nth-child(2) path.path {
-    fill: rgb(110, 210, 232);
+    fill: black;
   }
 
   .day:nth-child(2) path.stroke {
-    stroke: rgb(110, 210, 232);
+    stroke: black;
   }
 
   .day:nth-child(3) {
     grid-area: three;
+    background-color: beige;
   }
   .day:nth-child(4) {
     grid-area: four;
+    background-color: hsl(133, 6%, 27%);
+    color: white;
   }
+
+  .day:nth-child(4) path.path {
+    fill: white;
+  }
+
+  .day:nth-child(4) path.stroke {
+    stroke: white;
+  }
+
   .day:nth-child(5) {
     grid-area: five;
+    background-color: beige;
   }
 
   @media screen and (min-width: 33em) {
