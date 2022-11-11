@@ -11,7 +11,11 @@ export async function load() {
 
   const posts = await postquery(`
     posts {
+      graphic {
+        url
+      }
         title
+        subtitle
         excerpt
         slug
       image {

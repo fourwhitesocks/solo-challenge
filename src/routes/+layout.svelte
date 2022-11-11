@@ -13,7 +13,7 @@
 <div id="scroll-to-here" />
 <Navbar />
 
-<main class="">
+<main>
   <slot />
 </main>
 
