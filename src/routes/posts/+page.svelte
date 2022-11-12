@@ -9,23 +9,6 @@
 <Title title="Each Day of Sailing" />
 <h1>Hello there I can be a blog page</h1>
 
-<!-- <p>Help me{posts.title}</p> -->
-
-<!-- <ul>
-  {#each data.posts as post}
-    <li>{post.title}</li>
-    <br />
-  {/each}
-</ul> -->
-
-<!-- this works too{#each data.posts.posts as { title, excerpt, slug, image }}
-<a href="/posts/{slug}">
-  <h2>{title}</h2>
-</a>
-<h3>{excerpt}</h3>
-<img src={image.url} alt="im alt text" />
-{image}
-{/each} -->
 <body>
   <div class="post-grid">
     {#each posts.posts as post}
@@ -66,6 +49,7 @@
           class="text-2xl underline decoration-wavy decoration-2 hover:underline-offset-4"
           href="/posts/{post.slug}">Continued</a
         >
+        <h2><a class="effect5" href="#"><span>5 Link Hover Effect</span></a></h2>
       </article>
     {/each}
   </div>
@@ -83,19 +67,6 @@
     box-sizing: border-box;
   }
 
-  /* Remove default margin */
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  p,
-  figure,
-  blockquote,
-  dl,
-  dd {
-    margin: 0;
-  }
   body {
     /*  display: grid;
     place-content: center;
@@ -103,12 +74,12 @@
     background-color: hsl(210 46% 95%);
   }
 
-  /* Make images easier to work with */
+  /* Make images easier to work with 
   img,
   picture {
     max-width: 100%;
     display: block;
-  }
+  }  */
 
   h2 {
     font-size: 1.8rem;
