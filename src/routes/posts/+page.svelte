@@ -13,7 +13,7 @@
   <div class="post-grid">
     {#each posts.posts as post}
       <article class="day">
-        <div class="day-header flex">
+        <div class="flex pb-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="56" height="70" fill="none"
             ><g clip-path="url(#clip0_11_15)"
               ><path
@@ -35,21 +35,25 @@
             ></svg
           >
           <!-- <img src={post.graphic.url} alt="gps locator icon" /> -->
+
           <div class="titles-frame">
-            <a href="/posts/{post.slug}">
-              <h2>{post.title}</h2>
-            </a>
+            <h2>
+              <a
+                class="text-2xl underline decoration-1 hover:underline-offset-8"
+                href="/posts/{post.slug}">{post.title}</a
+              >
+            </h2>
+
             <h3>{post.subtitle}</h3>
           </div>
         </div>
 
-        <h4>{post.excerpt}</h4>
+        <h4 class="pb-4">{post.excerpt}</h4>
         <img class="pb-4" src={post.image.url} alt="im alt text" />
         <a
-          class="text-2xl underline decoration-wavy decoration-2 hover:underline-offset-4"
+          class="text-2xl underline decoration-1 hover:underline-offset-8"
           href="/posts/{post.slug}">Continued</a
         >
-        <h2><a class="effect5" href="#"><span>5 Link Hover Effect</span></a></h2>
       </article>
     {/each}
   </div>
@@ -99,11 +103,6 @@
     transform: scale(0.6);
   }
 
-  .titles-frame {
-  }
-  .day-header {
-    padding-bottom: 1em;
-  }
   .post-grid {
     display: grid;
     gap: 1.5rem;
@@ -179,6 +178,9 @@
   .day:nth-child(5) {
     grid-area: five;
     background-color: beige;
+    background-image: url('./sailboat-hr-test-op.svg');
+    background-repeat: no-repeat;
+    background-position: center 95%;
   }
 
   @media screen and (min-width: 33em) {
