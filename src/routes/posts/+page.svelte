@@ -1,5 +1,4 @@
 <script lang="ts">
-  import LocatorWht from '$lib/components/svgs/LocatorWht.svelte';
   import Title from '$lib/components/Title.svelte';
   export let data;
   console.log(data.posts);
@@ -42,10 +41,10 @@
               ></defs
             ></svg
           > -->
-          <!-- <LocatorWht /> -->
+
           <!-- <img src={post.graphic.url} alt="gps locator icon" /> -->
 
-          <div class="titles-frame">
+          <div class="pl-4">
             <h2>
               <a
                 class="text-2xl underline decoration-1 hover:underline-offset-8"
@@ -80,12 +79,12 @@
     box-sizing: border-box;
   }
 
-  body {
-    /*  display: grid;
+  /*body {
+     display: grid;
     place-content: center;
-    min-height: 100vh; */
+    min-height: 100vh; 
     background-color: hsl(210 46% 95%);
-  }
+  } */
 
   /* Make images easier to work with 
   img,
@@ -107,11 +106,6 @@
   h4 {
     line-height: 1.7;
   }
-
-  /*
-  svg {
-    transform: scale(0.6);
-  } */
 
   .post-grid {
     display: grid;
@@ -146,17 +140,8 @@
     color: white;
   }
 
-  /*
-  .day:nth-child(1) path.path {
-    fill: white;
-  } */
-
   .day:nth-child(1) path.map-marker {
     fill: white;
-  }
-
-  .day:nth-child(1) path.stroke {
-    stroke: white;
   }
 
   .day:nth-child(2) {
@@ -164,34 +149,19 @@
     background-color: lightgrey;
   }
 
-  .day:nth-child(2) path#pointer {
-    fill: red;
-  }
-
-  .day:nth-child(2) path.path {
-    fill: black;
-  }
-
-  .day:nth-child(2) path.stroke {
-    stroke: black;
-  }
-
   .day:nth-child(3) {
     grid-area: three;
     background-color: beige;
   }
+
   .day:nth-child(4) {
     grid-area: four;
     background-color: hsl(133, 6%, 27%);
     color: white;
   }
 
-  .day:nth-child(4) path.path {
+  .day:nth-child(4) path.map-marker {
     fill: white;
-  }
-
-  .day:nth-child(4) path.stroke {
-    stroke: white;
   }
 
   .day:nth-child(5) {
