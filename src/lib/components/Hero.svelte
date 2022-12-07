@@ -3,7 +3,7 @@
 </script>
 
 <div class="dark:bg-gray-900">
-  <div class="container mx-auto py-9 md:py-12 lg:py-24">
+  <div class="container mx-auto">
     <div class="items-strech mx-4 flex flex-col justify-center lg:flex-row">
       <div class="flex items-center justify-center lg:w-4/12">
         <div>
@@ -43,9 +43,9 @@
             role="img"
             class="rounded-box h-full w-full lg:hidden"
           />
-          <div class="absolute bottom-0 right-0 hidden w-1/2 bg-red-200 lg:block">
+          <div class="absolute bottom-0 right-0 hidden w-1/2 lg:block">
             <button
-              class="flex w-full items-center justify-between bg-gray-800 p-5 text-xl font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 dark:bg-white dark:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-50 xl:p-6 xl:text-2xl"
+              class="flex w-full items-center justify-between rounded-lg bg-gray-800 p-5 text-xl font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 dark:bg-white dark:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-50 xl:p-6 xl:text-2xl"
             >
               My days ~ a recap
               <div>

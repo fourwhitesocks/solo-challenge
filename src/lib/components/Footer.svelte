@@ -1,4 +1,4 @@
-<footer class="footer flex justify-between bg-neutral px-4 py-12">
+<footer class="footer flex justify-between bg-neutral px-4 py-12 text-neutral-content">
   <a href="/privacy-policy">Privacy Policy</a>
   <a href="/">© Copyright 2023 Digital Pain Killers</a>
   <a aria-label="Link to top of page" aria-describedby="scroll to here" href="#scroll-to-here">

@@ -6,10 +6,9 @@
   const { posts } = data;
 </script>
 
-<Title title="Each Day of Sailing" />
-<h1>Hello there I can be a blog page</h1>
+<div class="container">
+  <div class="text-center"><Title title="Each Day of Sailing" /></div>
 
-<body>
   <div class="post-grid">
     {#each posts.posts as post}
       <article class="day">
@@ -65,7 +64,7 @@
       </article>
     {/each}
   </div>
-</body>
+</div>
 
 <style>
   :root {
@@ -107,6 +106,10 @@
     line-height: 1.7;
   }
 
+  .container {
+    width: min(95%, 76rem);
+    margin: 0 auto;
+  }
   .post-grid {
     display: grid;
     gap: 1.5rem;

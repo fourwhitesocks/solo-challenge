@@ -13,6 +13,8 @@ export async function load({ params }) {
     image {
       url
     }
+   day_story 
+   extra_rich_text { html }
   }
 `)
 

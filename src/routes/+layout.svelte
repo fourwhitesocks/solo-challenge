@@ -13,7 +13,7 @@
 <div id="scroll-to-here" />
 <Navbar />
 
-<main>
+<main class="py-9 md:py-12">
   <slot />
 </main>
 
