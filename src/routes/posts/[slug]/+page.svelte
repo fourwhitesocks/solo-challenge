@@ -12,8 +12,12 @@
 
 <div class="container mx-auto max-w-xl px-4">
   <img class="pb-4" src={data.post.image.url} alt="im alt text" />
-  <h1>{data.post.title}</h1>
-  <p>{data.post.excerpt}</p>
+  <h1
+    class="title-ch-limit text-4xl font-semibold text-gray-900 dark:text-white md:text-5xl xl:text-6xl"
+  >
+    {data.post.title}
+  </h1>
+  <!-- <p>{data.post.excerpt}</p> -->
   <!-- <div class="prose">{data.post.main_content.html}</div> -->
   <!-- svelte-ignore missing-declaration -->
   <div class="prose">{@html marked.parse(data.post.day_story)}</div>
