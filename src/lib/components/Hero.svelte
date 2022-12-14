@@ -45,49 +45,117 @@
           />
           <div class="absolute bottom-0 right-0 hidden w-1/2 lg:block">
             <!-- there was a button here -->
-            <button
+            <a
+              href="/posts"
               class="flex w-full items-center justify-between rounded-lg bg-gray-800 p-5 text-xl font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 dark:bg-white dark:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-50 xl:p-6 xl:text-2xl"
             >
               My days ~ a recap
               <div>
                 <a href="/posts">
                   <img
-                    class="dark:hidden"
+                    class="arrow-bounce-right dark:hidden"
                     src="https://tuk-cdn.s3.amazonaws.com/can-uploader/hero-II-svg1.svg"
                     alt="arrow"
                   /></a
                 >
                 <a href="/posts">
                   <img
-                    class="hidden dark:block"
+                    class="arrow-bounce-right hidden dark:block"
                     src="https://tuk-cdn.s3.amazonaws.com/can-uploader/hero-II-svg1dark.svg"
                     alt="arrow"
                   />
                 </a>
               </div>
-            </button>
+            </a>
           </div>
         </div>
         <div class="mt-6 md:mt-8 lg:hidden">
-          <button
-            class="flex w-full items-center justify-between bg-gray-800 px-5 py-4 text-base font-semibold leading-tight text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 dark:bg-white dark:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-50 md:w-5/12 md:text-xl lg:py-7 lg:px-7"
+          button started here
+          <a
+            href="/posts"
+            class="flex w-full items-center justify-between rounded-lg bg-gray-800 px-5 py-4 text-base font-semibold leading-tight text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 dark:bg-white dark:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-50 md:w-5/12 md:text-xl lg:py-7 lg:px-7"
           >
             My days ~ a recap
             <div>
               <img
-                class="dark:hidden"
+                class="arrow-bounce-right dark:hidden"
                 src="https://tuk-cdn.s3.amazonaws.com/can-uploader/hero-II-svg1.svg"
                 alt="arrow"
               />
               <img
-                class="hidden dark:block"
+                class="arrow-bounce-right  hidden dark:block"
                 src="https://tuk-cdn.s3.amazonaws.com/can-uploader/hero-II-svg1dark.svg"
                 alt="arrow"
               />
             </div>
-          </button>
+            <!-- button ended here -->
+          </a>
         </div>
+        <!-- last div above is for second button thing -->
       </div>
     </div>
   </div>
 </div>
+
+<style>
+  /* right bounce */
+  @-webkit-keyframes bounceRight {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    40% {
+      -webkit-transform: translateX(-30px);
+      transform: translateX(-30px);
+    }
+    60% {
+      -webkit-transform: translateX(-15px);
+      transform: translateX(-15px);
+    }
+  }
+  @-moz-keyframes bounceRight {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateX(0);
+    }
+    40% {
+      transform: translateX(-30px);
+    }
+    60% {
+      transform: translateX(-15px);
+    }
+  }
+  @keyframes bounceRight {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    40% {
+      -ms-transform: translateX(-30px);
+      transform: translateX(-30px);
+    }
+    60% {
+      -ms-transform: translateX(-15px);
+      transform: translateX(-15px);
+    }
+  }
+  /* /right bounce */
+
+  /* assign bounce */
+  .arrow-bounce-right {
+    -webkit-animation: bounceRight 2s infinite;
+    animation: bounceRight 2s infinite;
+    float: right;
+  }
+</style>
