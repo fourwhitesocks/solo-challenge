@@ -33,30 +33,31 @@
         <div class="relative h-full w-full">
           <img
             src="./start-line-no-kite.jpeg"
-            alt="A lounge sofa"
+            alt="Start of 2022 Lake Erie Solo Challenge"
             role="img"
             class="rounded-box relative hidden h-full w-full lg:block"
           />
           <img
             src="./start-line-no-kite.jpeg"
-            alt="A lounge sofa"
+            alt="Start of 2022 Lake Erie Solo Challenge"
             role="img"
             class="rounded-box h-full w-full lg:hidden"
           />
           <div class="absolute bottom-0 right-0 hidden w-1/2 lg:block">
+            <!-- there was a button here -->
             <button
               class="flex w-full items-center justify-between rounded-lg bg-gray-800 p-5 text-xl font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 dark:bg-white dark:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-50 xl:p-6 xl:text-2xl"
             >
               My days ~ a recap
               <div>
-                <a href="#">
+                <a href="/posts">
                   <img
                     class="dark:hidden"
                     src="https://tuk-cdn.s3.amazonaws.com/can-uploader/hero-II-svg1.svg"
                     alt="arrow"
                   /></a
                 >
-                <a href="#">
+                <a href="/posts">
                   <img
                     class="hidden dark:block"
                     src="https://tuk-cdn.s3.amazonaws.com/can-uploader/hero-II-svg1dark.svg"

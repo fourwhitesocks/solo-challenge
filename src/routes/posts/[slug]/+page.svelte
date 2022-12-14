@@ -10,17 +10,21 @@
   console.log(data);
 </script>
 
-<div class="container mx-auto max-w-xl px-4">
-  <img class="pb-4" src={data.post.image.url} alt="im alt text" />
-  <h1 class="title-ch-limit text-4xl font-semibold dark:text-white md:text-5xl xl:text-6xl">
-    {data.post.title}
-  </h1>
-  <!-- <p>{data.post.excerpt}</p> -->
-  <!-- <div class="prose">{data.post.main_content.html}</div> -->
-  <!-- svelte-ignore missing-declaration -->
-  <article class="prose prose-lg">{@html marked.parse(data.post.day_story)}</article>
+<div class="container mx-auto max-w-3xl px-4 pt-12 pb-7">
   <article class="prose">
-    {@html data.post.extra_rich_text.html}
+    <img class="" src={data.post.image.url} alt="im alt text" />
+    <h1 class="title-ch-limit text-4xl font-semibold dark:text-white md:text-5xl xl:text-6xl">
+      {data.post.title}
+    </h1>
+    <!-- <p>{data.post.excerpt}</p> -->
+    <!-- <div class="prose">{data.post.main_content.html}</div> -->
+    <!-- svelte-ignore missing-declaration -->
+    <section class="prose lg:prose-xl">
+      {@html marked.parse(data.post.day_story)}
+    </section>
+    <!-- <article class="prose">
+      {@html data.post.extra_rich_text.html}
+    </article> -->
   </article>
 </div>
 

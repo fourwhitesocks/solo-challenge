@@ -140,7 +140,8 @@
   .day:nth-child(1) {
     grid-area: one;
     background-color: hsl(220, 80%, 20%);
-    color: white;
+    --tw-text-opacity: 1;
+    color: hsl(var(--nc) / var(--tw-text-opacity));
   }
 
   .day:nth-child(1) path.map-marker {
@@ -160,7 +161,8 @@
   .day:nth-child(4) {
     grid-area: four;
     background-color: hsl(133, 6%, 27%);
-    color: white;
+    --tw-text-opacity: 1;
+    color: hsl(var(--nc) / var(--tw-text-opacity));
   }
 
   .day:nth-child(4) path.map-marker {

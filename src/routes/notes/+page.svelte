@@ -28,4 +28,13 @@
   nav a {
     margin-right: 1rem;
   }
+
+  h2,
+  h3 {
+    --flow-spacer: 1.5em;
+  }
+
+  .flow > * + * {
+    margin-top: var(--flow-spacer, 0.75em);
+  }
 </style>
