@@ -14,7 +14,7 @@
           </h1> -->
           <HeroTitle />
           <p
-            class="mt-4 text-base leading-normal dark:text-gray-300 md:w-7/12 lg:mt-5 lg:w-11/12 xl:w-10/12"
+            class="mt-4 text-base leading-normal dark:text-gray-300 md:w-7/12 lg:prose-xl lg:mt-5 lg:w-11/12 xl:w-10/12"
           >
             A minimal recap of my 2022 sailing adventure competing in the solo sailors.org Lake Erie
             Solo Challenge. Little sv Eloxy just after the start pictured on far left of the fleet. <span

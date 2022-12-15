@@ -55,7 +55,7 @@
           </div>
         </div>
 
-        <h4 class="pb-4">{post.excerpt}</h4>
+        <h4 class="pb-4 lg:prose-xl">{post.excerpt}</h4>
         <img class="pb-4" src={post.image.url} alt="im alt text" />
         <a
           class="text-2xl underline decoration-1 hover:underline-offset-8"
@@ -151,11 +151,13 @@
   .day:nth-child(2) {
     grid-area: two;
     background-color: lightgrey;
+    color: hsl(0, 0%, 13%);
   }
 
   .day:nth-child(3) {
     grid-area: three;
     background-color: beige;
+    color: hsl(0, 0%, 13%);
   }
 
   .day:nth-child(4) {
@@ -175,6 +177,7 @@
     background-image: url('./sailboat-hr-test-op.svg');
     background-repeat: no-repeat;
     background-position: center 95%;
+    color: hsl(0, 0%, 13%);
   }
 
   @media screen and (min-width: 33em) {
