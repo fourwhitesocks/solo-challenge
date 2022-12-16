@@ -71,19 +71,16 @@
     --clr-primary-400: 263 55% 52%;
     --clr-secondary-400: 217 19% 35%;
   }
+
+  [data-theme='dark'] {
+    --bc: rgb(255, 0, 0);
+  }
   /* Box sizing rules */
   *,
   *::before,
   *::after {
     box-sizing: border-box;
   }
-
-  /*body {
-     display: grid;
-    place-content: center;
-    min-height: 100vh; 
-    background-color: hsl(210 46% 95%);
-  } */
 
   /* Make images easier to work with 
   img,
@@ -142,6 +139,10 @@
     background-color: hsl(220, 80%, 20%);
     --tw-text-opacity: 1;
     color: hsl(var(--nc) / var(--tw-text-opacity));
+  }
+
+  .day:nth-child(1)[data-theme='dark'] {
+    color: --bc;
   }
 
   .day:nth-child(1) path.map-marker {
