@@ -11,7 +11,7 @@ export async function load({ params }) {
     excerpt
     slug
     image {
-      url
+      url(transformation:{image:{resize:{fit:crop, height: 503, width:503}}})
     }
    day_story 
   }
