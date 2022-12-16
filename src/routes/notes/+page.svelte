@@ -21,6 +21,8 @@
   />
 </picture>
 
+<p>In HyGraph api playground query variables:  make it like json.  Example: {"slug" : "day-two"} </p>
+
 <style>
   nav {
     display: flex;

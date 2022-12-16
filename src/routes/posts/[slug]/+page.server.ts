@@ -14,7 +14,6 @@ export async function load({ params }) {
       url
     }
    day_story 
-   extra_rich_text { html }
   }
 `)
 
