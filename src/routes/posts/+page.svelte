@@ -89,7 +89,9 @@
       'two'
       'three'
       'four'
-      'five';
+      'five'
+      'six'
+      'seven';
 
     padding-block: 2rem;
     width: min(95%, 76rem);
@@ -154,6 +156,21 @@
     color: hsl(0, 0%, 13%);
   }
 
+  .day:nth-child(6) {
+    grid-area: six;
+    background-color: beige;
+    background-color: hsl(220, 80%, 20%);
+    --tw-text-opacity: 1;
+    color: hsl(var(--nc) / var(--tw-text-opacity));
+  }
+
+  .day:nth-child(7) {
+    grid-area: seven;
+
+    background-color: lightgrey;
+    color: hsl(0, 0%, 13%);
+  }
+
   @media screen and (min-width: 33em) {
     .post-grid {
       grid-template-areas:
@@ -187,7 +204,8 @@
     .post-grid {
       grid-template-areas:
         'one one two five'
-        'three four four five';
+        'three four four five'
+        'six six seven seven';
     }
   }
 </style>
