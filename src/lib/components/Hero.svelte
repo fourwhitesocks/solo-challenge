@@ -3,7 +3,7 @@
 </script>
 
 <div class="dark:bg-gray-900">
-  <div class="container mx-auto">
+  <div class="container mx-auto py-12">
     <div class="items-strech mx-4 flex flex-col justify-center lg:flex-row">
       <div class="flex items-center justify-center lg:w-4/12">
         <div>
@@ -14,7 +14,7 @@
           </h1> -->
           <HeroTitle />
           <p
-            class="mt-4 text-base leading-normal dark:text-gray-300 md:w-7/12 lg:prose-xl lg:mt-5 lg:w-11/12 xl:w-10/12"
+            class="mt-4 text-center text-base leading-normal dark:text-gray-300 md:m-auto md:mt-4 md:w-7/12 lg:prose-xl lg:m-0 lg:mt-5 lg:w-11/12 lg:text-left  xl:w-10/12"
           >
             A minimal recap of my 2022 sailing adventure competing in the solo sailors.org Lake Erie
             Solo Challenge. Little sv Eloxy just after the start pictured on far left of the fleet. <span
@@ -25,7 +25,11 @@
             />
           </p>
           <p class="mt-4">
-            <img src="./sailboat-hr-test-op.svg" alt="little sailboat graphic" />
+            <img
+              class="m-auto lg:m-0"
+              src="./sailboat-hr-test-op.svg"
+              alt="little sailboat graphic"
+            />
           </p>
         </div>
       </div>
@@ -70,7 +74,6 @@
           </div>
         </div>
         <div class="mt-6 md:mt-8 lg:hidden">
-          button started here
           <a
             href="/posts"
             class="flex w-full items-center justify-between rounded-lg bg-gray-800 px-5 py-4 text-base font-semibold leading-tight text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 dark:bg-white dark:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-50 md:w-5/12 md:text-xl lg:py-7 lg:px-7"

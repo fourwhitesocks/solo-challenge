@@ -6,7 +6,7 @@
   const { posts } = data;
 </script>
 
-<div class="container">
+<div class="container py-12">
   <div class="text-center"><Title title="Each Day of Sailing" /></div>
 
   <div class="post-grid">
@@ -192,7 +192,9 @@
         'one one'
         'two five'
         'three five'
-        'four four';
+        'four four'
+        'six six'
+        'seven seven';
     }
   }
 
