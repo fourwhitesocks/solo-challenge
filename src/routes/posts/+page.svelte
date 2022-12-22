@@ -141,6 +141,9 @@
     background-color: hsl(133, 6%, 27%);
     --tw-text-opacity: 1;
     color: hsl(var(--nc) / var(--tw-text-opacity));
+    background-image: url('./sailboat-hr-test-op.svg');
+    background-repeat: no-repeat;
+    background-position: center 92%;
   }
 
   .day:nth-child(4) path.map-marker {
@@ -150,9 +153,7 @@
   .day:nth-child(5) {
     grid-area: five;
     background-color: beige;
-    background-image: url('./sailboat-hr-test-op.svg');
-    background-repeat: no-repeat;
-    background-position: center 95%;
+
     color: hsl(0, 0%, 13%);
   }
 
@@ -162,6 +163,10 @@
     background-color: hsl(220, 80%, 20%);
     --tw-text-opacity: 1;
     color: hsl(var(--nc) / var(--tw-text-opacity));
+  }
+
+  .day:nth-child(6) path.map-marker {
+    fill: white;
   }
 
   .day:nth-child(7) {
