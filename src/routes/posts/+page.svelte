@@ -36,7 +36,7 @@
         </div>
 
         <h4 class="pb-4 lg:prose-xl">{post.excerpt}</h4>
-        <img class="pb-4" src={post.image.url} alt="im alt text" />
+        <img class="pb-4" src={post.image.url} alt={post.alt_text} />
         <a
           class="text-2xl underline decoration-1 hover:underline-offset-8"
           href="/posts/{post.slug}">Continued</a

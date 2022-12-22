@@ -13,6 +13,7 @@ export async function load({ params }) {
     image {
       url(transformation:{image:{resize:{fit:crop, height: 503, width:503}}})
     }
+    alt_text
    day_story 
   }
 `)

@@ -21,6 +21,7 @@ export async function load() {
       image {
         url(transformation:{image:{resize:{fit:crop, height: 300, width:300}}})
       }
+      alt_text
     }  
 `)
   return {
