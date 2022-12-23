@@ -16,8 +16,13 @@
           <p
             class="mt-4 text-center text-base leading-normal dark:text-gray-300 md:m-auto md:mt-4 md:w-7/12 lg:prose-xl lg:m-0 lg:mt-5 lg:w-11/12 lg:text-left  xl:w-10/12"
           >
-            A minimal recap of my 2022 sailing adventure competing in the solo sailors.org Lake Erie
-            Solo Challenge. Little sv Eloxy just after the start pictured on far left of the fleet. <span
+            A minimal journal of my 2022 sailing adventure competing in the <a
+              class="underline decoration-1 hover:underline-offset-8"
+              href="https://www.solosailors.org/erie-solo-challenge/"
+              target="_blank">Solo Sailors.org Lake Erie Solo Challenge</a
+            >
+            . Little SV Eloxy, just after the start pictured on far left of the fleet.
+            <span
               class="mp2 nj141"
               aria-label="Emoji: Dashing Away"
               title="Dashing Away"

@@ -8,6 +8,10 @@
 
 <div class="container py-12">
   <div class="text-center"><Title title="Each Day of Sailing" /></div>
+  <blockquote class="prose py-12 lg:prose-xl">
+    Perseverance is the hard work you do after you get tired of doing the hard work you already
+    did." <span>~Newt Gingrich~</span>
+  </blockquote>
 
   <div class="post-grid">
     {#each posts.posts as post}
@@ -36,7 +40,7 @@
         </div>
 
         <h4 class="pb-4 lg:prose-xl">{post.excerpt}</h4>
-        <img class="pb-4" src={post.image.url} alt={post.alt_text} />
+        <img class="rounded-lg pb-4" src={post.image.url} alt={post.alt_text} />
         <a
           class="text-2xl underline decoration-1 hover:underline-offset-8"
           href="/posts/{post.slug}">Continued</a
@@ -93,9 +97,9 @@
       'six'
       'seven';
 
-    padding-block: 2rem;
+    /*padding-block: 2rem; */
     width: min(95%, 76rem);
-    margin-inline: auto;
+    /*margin-inline: auto; */
   }
   .flex {
     display: flex;

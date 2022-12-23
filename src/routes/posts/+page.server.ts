@@ -19,7 +19,7 @@ export async function load() {
         excerpt
         slug
       image {
-        url(transformation:{image:{resize:{fit:crop, height: 300, width:300}}})
+        url(transformation:{image:{resize:{fit:crop, height: 275, width:275}}})
       }
       alt_text
     }  
