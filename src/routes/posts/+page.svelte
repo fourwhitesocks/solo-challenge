@@ -8,12 +8,16 @@
 
 <div class="container py-12">
   <div class="text-center"><Title title="Each Day of Sailing" /></div>
-  <blockquote class="prose py-12 lg:prose-xl">
-    Perseverance is the hard work you do after you get tired of doing the hard work you already
-    did." <span>~Newt Gingrich~</span>
+  <blockquote class="prose py-5 lg:prose-2xl">
+    <p class="max-w-[42rem] italic">
+      Perseverance is the hard work you do after you get tired of doing the hard work you already
+      did * <span class="text-base"
+        >~ this quote reminds me of preparing for this challenge ~ Amy</span
+      >
+    </p>
   </blockquote>
 
-  <div class="post-grid">
+  <div class="post-grid m-auto sm:m-0">
     {#each posts.posts as post}
       <article class="day">
         <div class="flex pb-4">
@@ -40,7 +44,7 @@
         </div>
 
         <h4 class="pb-4 lg:prose-xl">{post.excerpt}</h4>
-        <img class="rounded-lg pb-4" src={post.image.url} alt={post.alt_text} />
+        <img class="pb-4" src={post.image.url} alt={post.alt_text} />
         <a
           class="text-2xl underline decoration-1 hover:underline-offset-8"
           href="/posts/{post.slug}">Continued</a
@@ -48,6 +52,7 @@
       </article>
     {/each}
   </div>
+  <p class="pt-4">*quote credit: Newt Gingrich</p>
 </div>
 
 <style>
@@ -106,6 +111,15 @@
     align-items: center;
   }
 
+  /*   blockquote {
+    font-weight: 500;
+    font-style: italic;
+    color: var(--tw-prose-quotes);
+    border-left-width: 0.25rem;
+    border-left-color: var(--tw-prose-quote-borders);
+    quotes: '\201C''\201D''\2018''\2019';
+  } */
+
   .day {
     font-size: var(--fs-400);
     padding: 2rem;
@@ -125,7 +139,7 @@
   } */
 
   .day:nth-child(1) path.map-marker {
-    fill: white;
+    fill: hsl(var(--nc) / var(--tw-text-opacity));
   }
 
   .day:nth-child(2) {
@@ -151,7 +165,7 @@
   }
 
   .day:nth-child(4) path.map-marker {
-    fill: white;
+    fill: hsl(var(--nc) / var(--tw-text-opacity));
   }
 
   .day:nth-child(5) {
@@ -170,7 +184,7 @@
   }
 
   .day:nth-child(6) path.map-marker {
-    fill: white;
+    fill: hsl(var(--nc) / var(--tw-text-opacity));
   }
 
   .day:nth-child(7) {
@@ -179,7 +193,7 @@
     background-color: lightgrey;
     color: hsl(0, 0%, 13%);
   }
-
+  /* 528px */
   @media screen and (min-width: 33em) {
     .post-grid {
       grid-template-areas:
@@ -189,7 +203,7 @@
         'four four';
     }
   }
-
+  /* 608px */
   @media screen and (min-width: 38em) {
     .post-grid {
       grid-template-areas:
@@ -201,16 +215,16 @@
         'seven seven';
     }
   }
-
+  /*54em is 864 px */
   @media screen and (min-width: 54em) {
     .post-grid {
       grid-template-areas:
         'one one two'
-        'five five five'
-        'three four four';
+        'three four four'
+        'five six seven';
     }
   }
-
+  /* 75em is 1200px */
   @media screen and (min-width: 75em) {
     .post-grid {
       grid-template-areas:
@@ -219,4 +233,14 @@
         'six six seven seven';
     }
   }
+
+  /*  /* 75em is 1200px 
+   @media screen and (min-width: 75em) {
+    .post-grid {
+      grid-template-areas:
+        'one one two two'
+        'three four four five'
+        'six six seven seven';
+    }
+  } */
 </style>

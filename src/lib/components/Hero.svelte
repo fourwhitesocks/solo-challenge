@@ -13,6 +13,13 @@
             My Longest Sail <Title />
           </h1> -->
           <HeroTitle />
+
+          <p
+            class="mt-4 text-center text-xs font-light italic leading-normal dark:text-gray-300 md:m-auto md:mt-4 md:w-7/12 lg:prose-xl lg:m-0 lg:mt-5 lg:w-11/12 lg:text-left xl:w-10/12"
+          >
+            Amy Stout & SV Eloxy (Oday 28)
+          </p>
+
           <p
             class="mt-4 text-center text-base leading-normal dark:text-gray-300 md:m-auto md:mt-4 md:w-7/12 lg:prose-xl lg:m-0 lg:mt-5 lg:w-11/12 lg:text-left  xl:w-10/12"
           >

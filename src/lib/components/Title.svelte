@@ -11,7 +11,8 @@
 <style>
   @media (min-width: 1024px) {
     .title-ch-limit {
-      max-width: 8ch;
+      --ch-limit: 8ch;
+      max-width: var(--ch-limit);
     }
   }
 </style>

@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* .title-ch-limit {
+    --ch-limit: 8ch;
+    max-width: var(--ch-limit);
+} */
 
 html {
     scroll-behavior: smooth;
@@ -11,4 +14,8 @@ html {
 body {
     font-family: Montserrat;
 
+}
+
+img {
+    border-radius: .5rem;
 }
