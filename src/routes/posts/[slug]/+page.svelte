@@ -1,9 +1,8 @@
 <script lang="ts">
   import type { DataType } from 'src/types/data.types';
   import { marked } from 'marked';
-  //export let data: DataType[];
-  //export let datatype: DataType[];
-  export let data: data.ALL;
+
+  export let data: any;
   //https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_TypeScript
   //let title: string;
 
@@ -31,15 +30,4 @@
 <!-- <p>{@html data.post.excerpt}</p>
  this worked also but think it's for mixed html content field-->
 <style>
-  blockquote {
-    margin-top: 1.6em;
-    margin-bottom: 1.6em;
-    padding-left: 1.0666667em;
-    font-weight: 500;
-    font-style: italic;
-    color: var(--tw-prose-quotes);
-    border-left-width: 0.25rem;
-    border-left-color: var(--tw-prose-quote-borders);
-    quotes: '\201C''\201D''\2018''\2019';
-  }
 </style>

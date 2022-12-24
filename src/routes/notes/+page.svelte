@@ -1,10 +1,5 @@
 <h1>I'm a note</h1>
 <!-- data sveltekit prefecth will prerender the fetch when user hovers over nav with mouse -->
-<nav>
-  <a href="/">Home</a>
-  <a href="/posts" data-sveltekit-prefetch>Posts</a>
-  <a href="/notes" data-sveltekit-prefetch>Notes</a>
-</nav>
 
 <picture>
   <img
@@ -20,23 +15,3 @@
     alt=""
   />
 </picture>
-
-<p>In HyGraph api playground query variables:  make it like json.  Example: {"slug" : "day-two"} </p>
-
-<style>
-  nav {
-    display: flex;
-  }
-  nav a {
-    margin-right: 1rem;
-  }
-
-  h2,
-  h3 {
-    --flow-spacer: 1.5em;
-  }
-
-  .flow > * + * {
-    margin-top: var(--flow-spacer, 0.75em);
-  }
-</style>

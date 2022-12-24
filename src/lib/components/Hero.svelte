@@ -29,12 +29,12 @@
               target="_blank">Solo Sailors.org Lake Erie Solo Challenge</a
             >
             . Little SV Eloxy, just after the start pictured on far left of the fleet.
-            <span
+            <!-- <span
               class="mp2 nj141"
               aria-label="Emoji: Dashing Away"
               title="Dashing Away"
               alt="💨"
-            />
+            /> -->
           </p>
           <p class="mt-4">
             <img
