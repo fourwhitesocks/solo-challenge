@@ -47,18 +47,32 @@
       </div>
       <div class="mt-6 md:mt-8 lg:mt-0 lg:w-8/12">
         <div class="relative h-full w-full">
-          <img
-            src="./start-line-no-kite.jpeg"
-            alt="Start of 2022 Lake Erie Solo Challenge"
-            role="img"
-            class="rounded-box relative hidden h-full w-full lg:block"
-          />
-          <img
-            src="./start-line-no-kite.jpeg"
-            alt="Start of 2022 Lake Erie Solo Challenge"
-            role="img"
-            class="rounded-box h-full w-full lg:hidden"
-          />
+          <picture class="rounded-box relative hidden h-full w-full lg:block">
+            <img
+              sizes="(max-width: 1080px) 100vw, 1080px"
+              srcset="
+            start-line-op_hpda3d_c_scale,w_320.webp 320w,
+            start-line-op_hpda3d_c_scale,w_638.webp 638w,
+            start-line-op_hpda3d_c_scale,w_834.webp 834w,
+            start-line-op_hpda3d_c_scale,w_998.webp 998w,
+            start-line-op_hpda3d_c_scale,w_1080.webp 1080w"
+              src="start-line-op_hpda3d_c_scale,w_1080.webp"
+              alt=""
+            />
+          </picture>
+          <picture class="rounded-box h-full w-full lg:hidden">
+            <img
+              sizes="(max-width: 1080px) 100vw, 1080px"
+              srcset="
+            start-line-op_hpda3d_c_scale,w_320.webp 320w,
+            start-line-op_hpda3d_c_scale,w_638.webp 638w,
+            start-line-op_hpda3d_c_scale,w_834.webp 834w,
+            start-line-op_hpda3d_c_scale,w_998.webp 998w,
+            start-line-op_hpda3d_c_scale,w_1080.webp 1080w"
+              src="start-line-op_hpda3d_c_scale,w_1080.webp"
+              alt=""
+            />
+          </picture>
           <div class="absolute bottom-0 right-0 hidden w-1/2 lg:block">
             <!-- there was a button here -->
             <a
