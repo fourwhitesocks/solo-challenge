@@ -1,7 +1,7 @@
 <script lang="ts">
   import Title from '$lib/components/Title.svelte';
   export let data;
-  console.log(data.posts);
+  //console.log(data.posts);
   //below is destructured to make easier to read is not necessary but makes easier to read
   const { posts } = data;
 </script>
