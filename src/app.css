@@ -18,4 +18,16 @@ body {
 
 img {
     border-radius: .5rem;
+
+}
+
+/* article>* img {
+    box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(217 19% 35% / 0.25);
+} */
+
+
+/* this might be wrong place */
+.bottom-post-pagination {
+    display: flex;
+    justify-content: space-between;
 }

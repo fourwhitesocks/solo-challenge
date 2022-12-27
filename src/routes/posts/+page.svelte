@@ -193,6 +193,7 @@
     background-color: lightgrey;
     color: hsl(0, 0%, 13%);
   }
+
   /* 528px */
   @media screen and (min-width: 33em) {
     .post-grid {
@@ -227,7 +228,7 @@
   @media screen and (min-width: 75em) {
     .post-grid {
       grid-template-areas:
-        'one one two five'
+        'one one two two'
         'three four four five'
         'six six seven seven';
     }
