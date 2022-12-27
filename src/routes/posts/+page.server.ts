@@ -1,5 +1,5 @@
-//export const prerender = true
-//export const csr = false
+export const prerender = true
+export const csr = false
 
 import { postquery } from '$lib/data/db';
 //postquery is the function from db.js
@@ -9,6 +9,7 @@ export async function load() {
 
   //const users = await response.json();
   //console.log(users)
+
 
 
   const posts = await postquery(`
@@ -29,4 +30,5 @@ export async function load() {
   return {
     posts
   }
+
 }
