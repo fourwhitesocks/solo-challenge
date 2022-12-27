@@ -208,11 +208,10 @@
     .post-grid {
       grid-template-areas:
         'one one'
-        'two five'
-        'three five'
-        'four four'
-        'six six'
-        'seven seven';
+        'two three'
+        'four three'
+        'five five'
+        'six seven';
     }
   }
   /*54em is 864 px */
@@ -228,7 +227,7 @@
   @media screen and (min-width: 75em) {
     .post-grid {
       grid-template-areas:
-        'one one two two'
+        'one one two five'
         'three four four five'
         'six six seven seven';
     }
@@ -242,5 +241,12 @@
         'three four four five'
         'six six seven seven';
     }
-  } */
+  } 
+  
+  @media (min-width: 50em) {
+  .testimonial-grid {
+    grid-template-areas:
+     'one one two five'
+     'three four four five'
+  }*/
 </style>
