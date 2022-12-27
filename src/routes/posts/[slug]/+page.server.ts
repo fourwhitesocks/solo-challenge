@@ -1,5 +1,5 @@
 export const prerender = true
-export const csr = false
+
 import { error } from '@sveltejs/kit';
 import { postquery } from '$lib/data/db';
 //postquery is the function from db.js
