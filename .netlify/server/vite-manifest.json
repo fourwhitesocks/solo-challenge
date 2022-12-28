@@ -42,11 +42,6 @@
       "_app/immutable/assets/_page-5739e007.css"
     ]
   },
-  "src/routes/+page.server.ts": {
-    "file": "entries/pages/_page.server.ts.js",
-    "src": "src/routes/+page.server.ts",
-    "isEntry": true
-  },
   "src/routes/posts/+page.svelte": {
     "file": "entries/pages/posts/_page.svelte.js",
     "src": "src/routes/posts/+page.svelte",
