@@ -171,7 +171,7 @@
     background-color: hsl(133, 6%, 27%);
     --tw-text-opacity: 1;
     color: hsl(var(--nc) / var(--tw-text-opacity));
-    background-image: url('./assets/sailboat-hr-test-op.svg');
+
     background-image: url('./sailboat-hr-test-op.svg');
     background-repeat: no-repeat;
     background-position: center 92%;
