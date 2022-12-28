@@ -20,13 +20,11 @@
 
 <div class="container py-12">
   <div class="text-center"><Title title="Each Day of Sailing" /></div>
-  <blockquote class="prose py-5 lg:prose-2xl">
-    <p class="max-w-[42rem] italic">
-      Perseverance is the hard work you do after you get tired of doing the hard work you already
-      did * <span class="text-base"
-        >~ this quote reminds me of preparing for this challenge ~ Amy</span
-      >
-    </p>
+  <blockquote class="max-width[57ch] prose m-auto py-5 text-center italic lg:prose-2xl">
+    "Perseverance is the hard work you do after you get tired of doing the hard work you already
+    did"<span class="px-4 text-base"
+      >~ this quote reminds me of preparing for this challenge * ~ Amy</span
+    >
   </blockquote>
 
   <div class="post-grid m-auto sm:m-0">
@@ -114,7 +112,7 @@
       'six'
       'seven';
 
-    /*padding-block: 2rem; */
+    /*padding-block: 2rem; 
     width: min(95%, 76rem);
     /*margin-inline: auto; */
   }
