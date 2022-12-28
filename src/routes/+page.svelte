@@ -7,4 +7,17 @@
   import Hero from '$lib/components/Hero.svelte';
 </script>
 
+<svelte:head>
+  <title>Amy's Lake Erie Solo Challenge</title>
+  <meta
+    name="description"
+    content="Journal of my 2022 sailing adventure competing in the Lake Erie Solo Challenge"
+  />
+  <meta
+    name="robots"
+    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+  />
+  <link rel="canonical" href="https://dapper-sunshine-944804.netlify.app/" />
+</svelte:head>
+
 <Hero />

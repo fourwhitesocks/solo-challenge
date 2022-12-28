@@ -15,26 +15,21 @@
           <HeroTitle />
 
           <p
-            class="mt-4 text-center text-xs font-light italic leading-normal dark:text-gray-300 md:m-auto md:mt-4 md:w-7/12 lg:prose-xl lg:m-0 lg:mt-5 lg:w-11/12 lg:text-left xl:w-10/12"
+            class="mt-4 text-center text-xs font-light italic leading-normal dark:text-gray-300 md:m-auto md:mt-4 md:w-7/12 lg:m-0 lg:mt-5 lg:w-11/12 lg:prose-xl lg:text-left xl:w-10/12"
           >
             Amy Stout & SV Eloxy (Oday 28)
           </p>
 
           <p
-            class="mt-4 text-center text-base leading-normal dark:text-gray-300 md:m-auto md:mt-4 md:w-7/12 lg:prose-xl lg:m-0 lg:mt-5 lg:w-11/12 lg:text-left  xl:w-10/12"
+            class="mt-4 text-center text-base leading-normal dark:text-gray-300 md:m-auto md:mt-4 md:w-7/12 lg:m-0 lg:mt-5 lg:w-11/12 lg:prose-xl lg:text-left  xl:w-10/12"
           >
             A minimal journal of my 2022 sailing adventure competing in the <a
               class="underline decoration-1 hover:underline-offset-8"
               href="https://www.solosailors.org/erie-solo-challenge/"
-              target="_blank">Solo Sailors.org Lake Erie Solo Challenge</a
+              target="_blank"
+              rel="noreferrer">Solo Sailors.org Lake Erie Solo Challenge.</a
             >
-            . Little SV Eloxy, just after the start pictured on far left of the fleet.
-            <!-- <span
-              class="mp2 nj141"
-              aria-label="Emoji: Dashing Away"
-              title="Dashing Away"
-              alt="💨"
-            /> -->
+            Little SV Eloxy, just after the start pictured on far left of the fleet.
           </p>
           <p class="mt-4">
             <img

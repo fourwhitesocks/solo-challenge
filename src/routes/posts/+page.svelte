@@ -6,6 +6,18 @@
   const { posts } = data;
 </script>
 
+<svelte:head>
+  <title>The Days In Amy's Lake Erie Solo Challenge</title>
+  <meta
+    name="description"
+    content="Journal of my 2022 sailing adventure competing in the Lake Erie Solo Challenge"
+  />
+  <meta
+    name="robots"
+    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+  />
+</svelte:head>
+
 <div class="container py-12">
   <div class="text-center"><Title title="Each Day of Sailing" /></div>
   <blockquote class="prose py-5 lg:prose-2xl">
