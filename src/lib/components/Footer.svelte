@@ -5,7 +5,7 @@
   <a href="/">© Copyright 2023 Digital Pain Killers</a>
   <div class="gap-2 md:flex">
     <div>
-      Built with
+      Built with 💙
       <strong>
         <a
           class="group relative pl-1 text-lg transition-all duration-300 ease-in-out"
