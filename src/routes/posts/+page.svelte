@@ -170,9 +170,6 @@
     background-color: hsl(133, 6%, 27%);
     --tw-text-opacity: 1;
     color: hsl(var(--nc) / var(--tw-text-opacity));
-    background-image: url('/sailboat-hr-test-op.svg');
-    background-repeat: no-repeat;
-    background-position: center 92%;
   }
 
   .day:nth-child(4) path.map-marker {
@@ -235,6 +232,14 @@
         'five six seven';
     }
   }
+  @media (min-width: 1024px) {
+    .day:nth-child(4) {
+      background-image: url('/sailboat-hr-test-op.svg');
+      background-repeat: no-repeat;
+      background-position: center 92%;
+    }
+  }
+
   /* 75em is 1200px */
   @media screen and (min-width: 75em) {
     .post-grid {
@@ -242,6 +247,12 @@
         'one one two two'
         'three four four five'
         'six six seven seven';
+    }
+
+    .day:nth-child(4) {
+      background-image: url('/sailboat-hr-test-op.svg');
+      background-repeat: no-repeat;
+      background-position: center 92%;
     }
   }
 
