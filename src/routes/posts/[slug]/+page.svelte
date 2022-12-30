@@ -3,6 +3,18 @@
   export let data: any;
 </script>
 
+<svelte:head>
+  <title>Each Day | Amy's Lake Erie Solo Challenge 2022</title>
+  <meta
+    name="description"
+    content="A description of each day in my 2022 sailing adventure competing in the Lake Erie Solo Challenge"
+  />
+  <meta
+    name="robots"
+    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+  />
+</svelte:head>
+
 <div class="container mx-auto max-w-3xl px-4 pt-12 pb-7">
   <article class="prose">
     <img class="rounded-lg shadow-lg" src={data.post.image.url} alt={data.post.alt_text} />
