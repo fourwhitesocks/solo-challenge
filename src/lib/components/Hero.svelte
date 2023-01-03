@@ -17,7 +17,7 @@
           <p
             class="mt-4 text-center text-xs font-light italic leading-normal dark:text-gray-300 md:m-auto md:mt-4 md:w-7/12 lg:m-0 lg:mt-5 lg:w-11/12 lg:prose-xl lg:text-left xl:w-10/12"
           >
-            Amy Stout & SV Eloxy (Oday 28)
+            Amy Stout & S/V Eloxy (Oday 28)
           </p>
 
           <p
@@ -29,7 +29,7 @@
               target="_blank"
               rel="noreferrer">Solo Sailors.org Lake Erie Solo Challenge.</a
             >
-            Little SV Eloxy, just after the start pictured on far left of the fleet.
+            Little S/V Eloxy, just after the start pictured on far left of the fleet.
           </p>
           <p class="mt-4">
             <img
