@@ -22,7 +22,7 @@
       {data.post.title}
     </h1>
 
-    <section class="prose-xl prose">
+    <section class="prose-lg prose sm:prose-xl">
       {@html marked.parse(data.post.day_story)}
     </section>
   </article>
