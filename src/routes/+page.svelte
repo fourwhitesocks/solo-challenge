@@ -17,7 +17,8 @@
     name="robots"
     content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
   />
-  <link rel="canonical" href="https://dapper-sunshine-944804.netlify.app/" />
+  <meta name="google-site-verification" content="dEaEbjPhXQDkrjiReroKdScZ3Lr2DW4SxbOcodD4dC0" />
+  <link rel="canonical" href="https://amy-lake-erie-solo-challenge-2022.netlify.app/" />
 </svelte:head>
 
 <Hero />
