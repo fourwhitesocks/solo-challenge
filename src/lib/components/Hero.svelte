@@ -2,7 +2,7 @@
   import HeroTitle from '$lib/components/HeroTitle.svelte';
 </script>
 
-<div class="dark:bg-gray-900">
+<div>
   <div class="container mx-auto py-12">
     <div class="items-strech mx-4 flex flex-col justify-center lg:flex-row">
       <div class="flex items-center justify-center lg:w-4/12">
