@@ -15,13 +15,13 @@
           <HeroTitle />
 
           <p
-            class="mt-4 text-center text-xs font-light italic leading-normal dark:text-gray-300 sm:prose-xl md:m-auto md:mt-4 md:w-7/12  lg:m-0 lg:mt-5 lg:w-11/12 lg:text-left xl:w-10/12"
+            class="mt-4 text-center text-xs font-light italic leading-normal sm:prose-xl md:m-auto md:mt-4 md:w-7/12  lg:m-0 lg:mt-5 lg:w-11/12 lg:text-left xl:w-10/12"
           >
             Amy Stout & S/V Eloxy (Oday 28)
           </p>
 
           <p
-            class="mt-4 text-center text-base leading-normal dark:text-gray-300 md:m-auto md:mt-4 md:w-7/12 lg:m-0 lg:mt-5 lg:w-11/12 lg:prose-xl lg:text-left  xl:w-10/12"
+            class="mt-4 text-center text-base leading-normal md:m-auto md:mt-4 md:w-7/12 lg:m-0 lg:mt-5 lg:w-11/12 lg:prose-xl lg:text-left  xl:w-10/12"
           >
             A minimal journal of my 2022 sailing adventure competing in the <a
               class="underline decoration-1 hover:underline-offset-8"
