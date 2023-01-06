@@ -1,7 +1,7 @@
-<div class="mb-8">
+<div class="mb-8 pt-2 sm:py-2 sm:pr-3">
   <select
     data-choose-theme
-    class="select select-bordered select-primary select-xs bg-base-100 pr-9 text-base-content"
+    class="select-bordered select-primary select select-xs bg-base-100 pr-9 text-base-content"
   >
     <option disabled="disabled" selected="selected">Choose a theme</option>
     <option value="aqua">Aqua</option>

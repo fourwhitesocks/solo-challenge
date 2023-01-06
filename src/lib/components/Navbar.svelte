@@ -3,13 +3,13 @@
 </script>
 
 <header
-  class="navbar flex-col bg-neutral text-neutral-content shadow-lg selection:rounded-b-lg sm:flex-row"
+  class="navbar flex-col bg-neutral pt-8 text-neutral-content shadow-lg selection:rounded-b-lg sm:flex-row sm:pt-4"
 >
   <div class="mx-2 px-2 lg:navbar-start">
     <span class="text-md font-bold"><a href="/">Amy's Lake Erie Solo Challenge 2022</a> </span>
   </div>
   <div class="navbar-center mx-2 px-2">
-    <nav class="flex items-stretch">
+    <nav class="flex items-stretch pt-2 sm:pt-0">
       <!--  <a class="btn btn-ghost btn-sm rounded-btn" href={`/`}>Home</a>
         {#each pages as { title, slug }}
           <a class="btn btn-ghost btn-sm rounded-btn" href={`/${slug}`}

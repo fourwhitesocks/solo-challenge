@@ -8,10 +8,10 @@
       <div class="flex items-center justify-center lg:w-4/12">
         <div>
           <!-- <h1
-            class="w-7/12 text-4xl font-semibold text-gray-900 dark:text-white md:text-5xl xl:text-6xl"
-          >
-            My Longest Sail <Title />
-          </h1> -->
+              class="w-7/12 text-4xl font-semibold text-gray-900 dark:text-white md:text-5xl xl:text-6xl"
+            >
+              My Longest Sail <Title />
+            </h1> -->
           <HeroTitle />
 
           <p
@@ -46,11 +46,11 @@
             <img
               sizes="(max-width: 1080px) 100vw, 1080px"
               srcset="
-            start-line-op_hpda3d_c_scale,w_320.webp 320w,
-            start-line-op_hpda3d_c_scale,w_638.webp 638w,
-            start-line-op_hpda3d_c_scale,w_834.webp 834w,
-            start-line-op_hpda3d_c_scale,w_998.webp 998w,
-            start-line-op_hpda3d_c_scale,w_1080.webp 1080w"
+              start-line-op_hpda3d_c_scale,w_320.webp 320w,
+              start-line-op_hpda3d_c_scale,w_638.webp 638w,
+              start-line-op_hpda3d_c_scale,w_834.webp 834w,
+              start-line-op_hpda3d_c_scale,w_998.webp 998w,
+              start-line-op_hpda3d_c_scale,w_1080.webp 1080w"
               src="start-line-op_hpda3d_c_scale,w_1080.webp"
               alt=""
             />
@@ -59,11 +59,11 @@
             <img
               sizes="(max-width: 1080px) 100vw, 1080px"
               srcset="
-            start-line-op_hpda3d_c_scale,w_320.webp 320w,
-            start-line-op_hpda3d_c_scale,w_638.webp 638w,
-            start-line-op_hpda3d_c_scale,w_834.webp 834w,
-            start-line-op_hpda3d_c_scale,w_998.webp 998w,
-            start-line-op_hpda3d_c_scale,w_1080.webp 1080w"
+              start-line-op_hpda3d_c_scale,w_320.webp 320w,
+              start-line-op_hpda3d_c_scale,w_638.webp 638w,
+              start-line-op_hpda3d_c_scale,w_834.webp 834w,
+              start-line-op_hpda3d_c_scale,w_998.webp 998w,
+              start-line-op_hpda3d_c_scale,w_1080.webp 1080w"
               src="start-line-op_hpda3d_c_scale,w_1080.webp"
               alt=""
             />
@@ -76,14 +76,14 @@
             >
               My days ~ a recap
               <div>
-                <a href="/posts">
+                <a href="/posts" aria-label="Read more about each day of sailing">
                   <img
                     class="arrow-bounce-right dark:hidden"
                     src="https://tuk-cdn.s3.amazonaws.com/can-uploader/hero-II-svg1.svg"
                     alt="arrow"
                   /></a
                 >
-                <a href="/posts">
+                <a href="/posts" aria-label="Read more about each day of sailing">
                   <img
                     class="arrow-bounce-right hidden dark:block"
                     src="https://tuk-cdn.s3.amazonaws.com/can-uploader/hero-II-svg1dark.svg"
@@ -97,6 +97,7 @@
         <div class="mt-6 md:mt-8 lg:hidden">
           <a
             href="/posts"
+            aria-label="Read more about each day of sailing"
             class="flex w-full items-center justify-between rounded-lg bg-gray-800 px-5 py-4 text-base font-semibold leading-tight text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 dark:bg-white dark:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-50 md:w-5/12 md:text-xl lg:py-7 lg:px-7"
           >
             My days ~ a recap
