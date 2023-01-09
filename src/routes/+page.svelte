@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-  <title>Amy's Lake Erie Solo Challenge</title>
+  <title>Amy Lake Erie Solo Challenge</title>
   <meta
     name="description"
     content="Journal of my 2022 sailing adventure competing in the Lake Erie Solo Challenge"
