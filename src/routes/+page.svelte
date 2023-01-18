@@ -26,7 +26,7 @@
 
   <meta
     property="og:description"
-    content="Amy journal of her days in the 2022 Lake Erie Solo Challenge 2022"
+    content="Amy journal of my days in the 2022 Lake Erie Solo Challenge"
   />
   <meta
     property="og:image"
