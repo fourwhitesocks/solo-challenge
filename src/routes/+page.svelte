@@ -19,6 +19,14 @@
   />
   <meta name="google-site-verification" content="dEaEbjPhXQDkrjiReroKdScZ3Lr2DW4SxbOcodD4dC0" />
   <link rel="canonical" href="https://amy-lake-erie-solo-challenge-2022.netlify.app/" />
+
+  <meta property="og:url" content="https://amy-lake-erie-solo-challenge-2022.netlify.app/" />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:image"
+    content="https://amy-lake-erie-solo-challenge-2022.netlify.app/lake-erie-challenge-start-og.jpg"
+  />
+  <meta property="og:image:alt" content="Amy start line 2022 Lake Erie Solo Challenge" />
 </svelte:head>
 
 <Hero />
