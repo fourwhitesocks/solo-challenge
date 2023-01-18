@@ -22,6 +22,12 @@
 
   <meta property="og:url" content="https://amy-lake-erie-solo-challenge-2022.netlify.app/" />
   <meta property="og:type" content="website" />
+  <meta property="og:title" content="Amy Lake Erie Solo Challenge 2022" />
+
+  <meta
+    property="og:description"
+    content="Amy journal of her days in the 2022 Lake Erie Solo Challenge 2022"
+  />
   <meta
     property="og:image"
     content="https://amy-lake-erie-solo-challenge-2022.netlify.app/lake-erie-challenge-start-og.jpg"
