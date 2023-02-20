@@ -4,10 +4,11 @@
 </script>
 
 <svelte:head>
-  <title>Each Day | Amy's Lake Erie Solo Challenge 2022</title>
+  <title>{data.post.title} | Amy's Lake Erie Solo Challenge 2022</title>
   <meta
     name="description"
-    content="A description of each day in my 2022 sailing adventure competing in the Lake Erie Solo Challenge"
+    content="A description of {data.post
+      .title} in my 2022 sailing adventure competing in the Lake Erie Solo Challenge"
   />
   <meta
     name="robots"
