@@ -9,7 +9,7 @@
 </script>
 
 <!-- <div class="flex gap-6"> -->
-<div class="flex">
+<div class="flex pb-4">
   <a
     class="pr-4 underline decoration-1 hover:underline-offset-8 sm:text-xl md:text-2xl"
     href={dayone}>Start</a
