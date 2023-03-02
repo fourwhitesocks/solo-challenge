@@ -1,6 +1,17 @@
 <script lang="ts">
   import { marked } from 'marked';
   export let data: any;
+  //for paginate on top of @ post
+  import BlogNav from '$lib/components/BlogNav.svelte';
+  const link = {
+    dayone: './day-one',
+    daytwo: './day-two',
+    daythree: './day-three',
+    dayfour: './day-four',
+    dayfive: './day-five',
+    daysix: './day-six',
+    conclusion: './conclusion'
+  };
 </script>
 
 <svelte:head>
@@ -19,6 +30,8 @@
 <div class="container mx-auto max-w-3xl px-4 pt-12 pb-7">
   <article class="prose">
     <img class="rounded-lg shadow-lg" src={data.post.image.url} alt={data.post.alt_text} />
+    <BlogNav {...link} />
+
     <h1 class="title-ch-limit text-4xl font-semibold md:text-5xl xl:text-6xl">
       {data.post.title}
     </h1>
