@@ -4,6 +4,8 @@
 
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Allow: /
+Sitemap: https://amy-lake-erie-solo-challenge-2022.netlify.app/sitemap.xml
 
 # SvelteKit Crawl Budget Performance Updates
 # Block files ending in .js
